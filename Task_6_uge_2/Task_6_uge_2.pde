@@ -38,10 +38,10 @@ void draw() {
     l2=off;
     l3=g;
     break;
-  case 300:             // både grøn og gul, det stod ikke i opgave beskrivelsen
+  case 300:             // så gul igen, det stod ikke i opgave beskrivelsen
     l1=off;            // tænkte bare det var mere realistisk :)
     l2=y;
-    l3=g;
+    l3=off;
     break;
   }
   fill(l1);                               // vi farvebestemmer cirklerne med l1,l2,l3
